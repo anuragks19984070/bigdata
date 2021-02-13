@@ -40,7 +40,7 @@ public class StubDriver {
 		// conf.setNumMapTasks(5);
 
 		//To change number of reducers you can use the following:
-		//job.setNumReduceTasks(2);
+		job.setNumReduceTasks(2);
 
 		//TO change the InputFormat class, use the following settings.
 		//If you want exactly N number of lines on every inputsplit
